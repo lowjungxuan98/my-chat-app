@@ -53,9 +53,9 @@ export const CustomChannelPreview = ({
           )}
         </div>
         <div className="flex items-center justify-between mt-1">
-          <p className="text-sm text-gray-600 truncate">
+          <div className="text-sm text-gray-600 truncate">
             {latestMessagePreview || 'No messages yet'}
-          </p>
+          </div>
           {unread && unread > 0 && (
             <span className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-blue-600 rounded-full">
               {unread}

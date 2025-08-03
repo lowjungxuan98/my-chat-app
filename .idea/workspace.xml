@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d830bc7a-c5b2-44f9-92ff-063f670f8005" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/android/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/android/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/screens/chat_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/screens/chat_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/CustomChannelPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/CustomChannelPreview.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="30miNbkkGouNGHgvqPxfeTO40yc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.main.dart.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d830bc7a-c5b2-44f9-92ff-063f670f8005" name="Changes" comment="" />
+      <created>1754239110173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754239110173</updated>
+    </task>
+    <servers />
+  </component>
+</project>

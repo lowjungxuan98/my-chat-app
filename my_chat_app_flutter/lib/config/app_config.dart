@@ -1,7 +1,11 @@
+import 'dart:io' show Platform;
+
 class AppConfig {
   // Backend URL - Update this to your actual backend URL
   // For local development with backend running on localhost:3000
-  static const String baseUrl = 'http://localhost:3000';
+  static final String baseUrl = Platform.isAndroid
+      ? 'http://10.0.2.2:3000'
+      : 'http://localhost:3000';
   // For production, use your deployed backend URL:
   // static const String baseUrl = 'https://your-backend-domain.com';
   
@@ -10,13 +14,13 @@ class AppConfig {
   static const String streamApiKey = 'exk2f6qzz7je';
   
   // API endpoints
-  static const String loginEndpoint = '$baseUrl/api/auth/login';
-  static const String registerEndpoint = '$baseUrl/api/auth/register';
-  static const String logoutEndpoint = '$baseUrl/api/auth/logout';
-  static const String meEndpoint = '$baseUrl/api/auth/me';
-  static const String tokenEndpoint = '$baseUrl/api/token';
-  static const String createChannelEndpoint = '$baseUrl/api/create-channel';
-  static const String debugChannelsEndpoint = '$baseUrl/api/debug/channels';
+  static final String loginEndpoint = '$baseUrl/api/auth/login';
+  static final String registerEndpoint = '$baseUrl/api/auth/register';
+  static final String logoutEndpoint = '$baseUrl/api/auth/logout';
+  static final String meEndpoint = '$baseUrl/api/auth/me';
+  static final String tokenEndpoint = '$baseUrl/api/token';
+  static final String createChannelEndpoint = '$baseUrl/api/create-channel';
+  static final String debugChannelsEndpoint = '$baseUrl/api/debug/channels';
   
   // Shared preferences keys
   static const String userIdKey = 'userId';
