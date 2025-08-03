@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d830bc7a-c5b2-44f9-92ff-063f670f8005" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/.metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/android/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/android/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/config/app_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/config/app_config.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/screens/chat_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/screens/chat_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/CustomChannelPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/CustomChannelPreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

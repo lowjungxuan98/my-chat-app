@@ -1,4 +1,5 @@
 import 'dart:io' show Platform;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConfig {
   // Backend URL - Update this to your actual backend URL
@@ -10,8 +11,8 @@ class AppConfig {
   // static const String baseUrl = 'https://your-backend-domain.com';
   
   // Stream Chat API key - Get this from https://getstream.io/
-  // Updated with actual API key from environment configuration
-  static const String streamApiKey = 'exk2f6qzz7je';
+  // Loaded from .env file
+  static String get streamApiKey => dotenv.env['NEXT_PUBLIC_STREAM_API_KEY'] ?? '';
   
   // API endpoints
   static final String loginEndpoint = '$baseUrl/api/auth/login';
