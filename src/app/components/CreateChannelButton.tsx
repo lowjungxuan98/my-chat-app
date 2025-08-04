@@ -43,7 +43,7 @@ export default function CreateChannelButton() {
       } else {
         setMessage(`Error: ${data.error}`);
       }
-    } catch (_error) {
+    } catch {
       setMessage('Failed to create channel. Please try again.');
     } finally {
       setIsCreating(false);

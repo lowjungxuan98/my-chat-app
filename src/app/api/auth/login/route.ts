@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
 import { createHash } from 'crypto';
-
-const prisma = new PrismaClient();
+import { prisma } from '../../../../server/lib/prisma';
 
 function hashPassword(password: string): string {
   return createHash('sha256').update(password).digest('hex');
@@ -49,7 +47,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Return user data without password
-    const { password: _password, ...userWithoutPassword } = user;
+    const { ...userWithoutPassword } = user;
 
     const response = NextResponse.json({
       message: 'Login successful',
