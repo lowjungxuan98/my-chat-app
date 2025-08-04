@@ -2,7 +2,7 @@
 
 import { Chat } from 'stream-chat-react';
 import { useEffect, useState } from 'react';
-import { ChannelSort, StreamChat } from 'stream-chat';
+import { ChannelSort, StreamChat, UserResponse, ChannelFilters } from 'stream-chat';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '../context/AuthContext';
 import { useMobile } from '../context/MobileContext';
@@ -14,8 +14,8 @@ const apiKey = process.env.NEXT_PUBLIC_STREAM_API_KEY!;
 
 export default function ChatPage() {
   const [client, setClient] = useState<StreamChat | null>(null);
-  const [streamUser, setStreamUser] = useState<any>(null);
-  const [filters, setFilters] = useState<any>(null);
+  const [streamUser, setStreamUser] = useState<UserResponse | null>(null);
+  const [filters, setFilters] = useState<ChannelFilters | null>(null);
   const [showChannelList, setShowChannelList] = useState(true);
   const { user, loading } = useAuth();
   const router = useRouter();
@@ -68,7 +68,7 @@ export default function ChatPage() {
     return () => {
       client?.disconnectUser();
     };
-  }, [user, loading, router]);
+  }, [user, loading, router, client]);
 
   if (loading) {
     return <LoadingSpinner message="Loading..." />;

@@ -79,7 +79,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         setError(data.error || 'Login failed');
         return false;
       }
-    } catch (error) {
+    } catch (_error) {
       setError('Network error. Please try again.');
       return false;
     } finally {
@@ -107,7 +107,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         setError(data.error || 'Registration failed');
         return false;
       }
-    } catch (error) {
+    } catch (_error) {
       setError('Network error. Please try again.');
       return false;
     } finally {

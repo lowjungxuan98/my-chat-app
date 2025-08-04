@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d830bc7a-c5b2-44f9-92ff-063f670f8005" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/config/app_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/config/app_config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/my_chat_app_flutter/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lowjungxuan98"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lowjungxuan98/my-chat-app.git",
+    "accountId": "98aeef12-b507-4c2c-88d9-671a3ae92ebe"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 0

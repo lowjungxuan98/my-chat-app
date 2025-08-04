@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { StreamChat } from 'stream-chat';
 import { prisma } from '../../../server/lib/prisma';
-import crypto from 'crypto';
 
 const api_key = process.env.NEXT_PUBLIC_STREAM_API_KEY!;
 const api_secret = process.env.STREAM_API_SECRET!;
@@ -147,8 +146,8 @@ export async function POST(request: Request) {
       channelId: channelId,
       message: 'Channel created successfully'
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Create channel error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: error instanceof Error ? error.message : 'Unknown error' }, { status: 500 });
   }
 } 

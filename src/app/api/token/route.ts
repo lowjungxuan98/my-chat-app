@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
     await serverClient.upsertUser({
       id: userId,
       name: userName,
-      image: user.image,
+      image: user.image || undefined,
       role: 'user',
     });
 
@@ -56,11 +56,11 @@ export async function POST(request: NextRequest) {
       user: {
         id: userId,
         name: userName,
-        image: user.image,
+        image: user.image || undefined,
       }
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Token generation error:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: error instanceof Error ? error.message : 'Unknown error' }, { status: 500 });
   }
 } 

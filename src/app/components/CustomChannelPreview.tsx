@@ -10,7 +10,7 @@ interface CustomChannelPreviewProps extends ChannelPreviewUIComponentProps {
 export const CustomChannelPreview = ({ 
   channel, 
   displayTitle, 
-  groupChannelDisplayInfo,
+  groupChannelDisplayInfo: _groupChannelDisplayInfo,
   lastMessage, 
   latestMessagePreview, 
   unread, 
