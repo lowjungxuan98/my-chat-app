@@ -3,23 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx dotenv-cli -e .env.development -- next dev --turbopack",
-    "local": "npx dotenv-cli -e .env.local -- next dev --turbopack",
-    "prd": "npx dotenv-cli -e .env.production -- next start",
+    "dev": "next dev --turbopack",
     "build": "prisma generate --no-engine && next build",
-    "build:dev": "npx dotenv-cli -e .env.development -- prisma generate --no-engine && next build",
-    "build:local": "npx dotenv-cli -e .env.local -- prisma generate --no-engine && next build",
-    "build:prd": "npx dotenv-cli -e .env.production -- prisma generate --no-engine && next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate --no-engine",
-    "db:migrate": "npx dotenv-cli -e .env.local -- prisma migrate deploy",
-    "db:migrate:dev": "npx dotenv-cli -e .env.development -- prisma migrate deploy",
-    "db:migrate:prod": "npx dotenv-cli -e .env.production -- prisma migrate deploy",
-    "db:status": "npx dotenv-cli -e .env.local -- prisma migrate status",
-    "db:status:dev": "npx dotenv-cli -e .env.development -- prisma migrate status",
-    "db:status:prod": "npx dotenv-cli -e .env.production -- prisma migrate status",
-    "db:generate": "npx dotenv-cli -e .env.local -- prisma generate --no-engine"
+    "postinstall": "prisma generate --no-engine"
   },
   "dependencies": {
     "@prisma/client": "^6.13.0",
@@ -38,7 +26,6 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "dotenv-cli": "^10.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
     "tailwindcss": "^4",
